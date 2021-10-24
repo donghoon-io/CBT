@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262488662718070000F1603C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262488652718070000F1603C /* AppDelegate.swift */; };
+		262488682718070000F1603C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262488672718070000F1603C /* SceneDelegate.swift */; };
+		2624886A2718070000F1603C /* NowEmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262488692718070000F1603C /* NowEmotionViewController.swift */; };
+		2624886D2718070000F1603C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2624886B2718070000F1603C /* Main.storyboard */; };
+		2624886F2718070100F1603C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2624886E2718070100F1603C /* Assets.xcassets */; };
+		262488722718070100F1603C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262488702718070100F1603C /* LaunchScreen.storyboard */; };
+		2624887A2718137800F1603C /* EmotionExtentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262488792718137800F1603C /* EmotionExtentViewController.swift */; };
+		26D43F622725335E001FCD2A /* EmotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F612725335E001FCD2A /* EmotionTableViewCell.swift */; };
+		26D43F642725405C001FCD2A /* EmotionReasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F632725405C001FCD2A /* EmotionReasonViewController.swift */; };
+		26D43F6627254715001FCD2A /* WriteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F6527254715001FCD2A /* WriteDetailViewController.swift */; };
+		26D43F6827254FC1001FCD2A /* SkillRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F6727254FC1001FCD2A /* SkillRecommendViewController.swift */; };
+		26D43F6A2725554D001FCD2A /* SkillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F692725554D001FCD2A /* SkillDetailViewController.swift */; };
+		26D43F6C2725585D001FCD2A /* ChangedEmotionExtentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F6B2725585D001FCD2A /* ChangedEmotionExtentViewController.swift */; };
+		26D43F6E27255AE6001FCD2A /* WhatSkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F6D27255AE6001FCD2A /* WhatSkillViewController.swift */; };
+		26D43F7027256181001FCD2A /* NewSkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F6F27256181001FCD2A /* NewSkillViewController.swift */; };
+		26D43F74272565BD001FCD2A /* DailyMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F73272565BD001FCD2A /* DailyMainViewController.swift */; };
+		26D43F7627256649001FCD2A /* DailyEmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F7527256649001FCD2A /* DailyEmotionViewController.swift */; };
+		26D43F78272566A6001FCD2A /* DailyEmotionExtentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F77272566A6001FCD2A /* DailyEmotionExtentViewController.swift */; };
+		26D43F7A272567F5001FCD2A /* DailyRecordCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D43F79272567F5001FCD2A /* DailyRecordCompleteViewController.swift */; };
+		3D19D4598101DF7CD2567C39 /* Pods_CBT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B4C9CA218052A58AEFB22C /* Pods_CBT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		262488622718070000F1603C /* CBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		262488652718070000F1603C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		262488672718070000F1603C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		262488692718070000F1603C /* NowEmotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowEmotionViewController.swift; sourceTree = "<group>"; };
+		2624886C2718070000F1603C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2624886E2718070100F1603C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		262488712718070100F1603C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		262488732718070100F1603C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262488792718137800F1603C /* EmotionExtentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionExtentViewController.swift; sourceTree = "<group>"; };
+		26D43F612725335E001FCD2A /* EmotionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionTableViewCell.swift; sourceTree = "<group>"; };
+		26D43F632725405C001FCD2A /* EmotionReasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionReasonViewController.swift; sourceTree = "<group>"; };
+		26D43F6527254715001FCD2A /* WriteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDetailViewController.swift; sourceTree = "<group>"; };
+		26D43F6727254FC1001FCD2A /* SkillRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillRecommendViewController.swift; sourceTree = "<group>"; };
+		26D43F692725554D001FCD2A /* SkillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDetailViewController.swift; sourceTree = "<group>"; };
+		26D43F6B2725585D001FCD2A /* ChangedEmotionExtentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangedEmotionExtentViewController.swift; sourceTree = "<group>"; };
+		26D43F6D27255AE6001FCD2A /* WhatSkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatSkillViewController.swift; sourceTree = "<group>"; };
+		26D43F6F27256181001FCD2A /* NewSkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSkillViewController.swift; sourceTree = "<group>"; };
+		26D43F73272565BD001FCD2A /* DailyMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMainViewController.swift; sourceTree = "<group>"; };
+		26D43F7527256649001FCD2A /* DailyEmotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyEmotionViewController.swift; sourceTree = "<group>"; };
+		26D43F77272566A6001FCD2A /* DailyEmotionExtentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyEmotionExtentViewController.swift; sourceTree = "<group>"; };
+		26D43F79272567F5001FCD2A /* DailyRecordCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRecordCompleteViewController.swift; sourceTree = "<group>"; };
+		66BA3A22C871CC9A86CDEC50 /* Pods-CBT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBT.debug.xcconfig"; path = "Target Support Files/Pods-CBT/Pods-CBT.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3DEBBFCB9285D6E4268EEF /* Pods-CBT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBT.release.xcconfig"; path = "Target Support Files/Pods-CBT/Pods-CBT.release.xcconfig"; sourceTree = "<group>"; };
+		A3B4C9CA218052A58AEFB22C /* Pods_CBT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2624885F2718070000F1603C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D19D4598101DF7CD2567C39 /* Pods_CBT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C475F9CA8A4420A9807DB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B4C9CA218052A58AEFB22C /* Pods_CBT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		262488592718070000F1603C = {
+			isa = PBXGroup;
+			children = (
+				262488642718070000F1603C /* CBT */,
+				262488632718070000F1603C /* Products */,
+				A1151C3A4978B0B8BCFAEE41 /* Pods */,
+				01C475F9CA8A4420A9807DB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		262488632718070000F1603C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				262488622718070000F1603C /* CBT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262488642718070000F1603C /* CBT */ = {
+			isa = PBXGroup;
+			children = (
+				262488652718070000F1603C /* AppDelegate.swift */,
+				262488672718070000F1603C /* SceneDelegate.swift */,
+				26D43F712725657D001FCD2A /* 01-Anxiety_record */,
+				26D43F7227256596001FCD2A /* 02-Daily_record */,
+				2624886B2718070000F1603C /* Main.storyboard */,
+				2624886E2718070100F1603C /* Assets.xcassets */,
+				262488702718070100F1603C /* LaunchScreen.storyboard */,
+				262488732718070100F1603C /* Info.plist */,
+			);
+			path = CBT;
+			sourceTree = "<group>";
+		};
+		26D43F712725657D001FCD2A /* 01-Anxiety_record */ = {
+			isa = PBXGroup;
+			children = (
+				262488792718137800F1603C /* EmotionExtentViewController.swift */,
+				26D43F612725335E001FCD2A /* EmotionTableViewCell.swift */,
+				26D43F6F27256181001FCD2A /* NewSkillViewController.swift */,
+				26D43F632725405C001FCD2A /* EmotionReasonViewController.swift */,
+				26D43F6D27255AE6001FCD2A /* WhatSkillViewController.swift */,
+				26D43F6727254FC1001FCD2A /* SkillRecommendViewController.swift */,
+				26D43F692725554D001FCD2A /* SkillDetailViewController.swift */,
+				26D43F6B2725585D001FCD2A /* ChangedEmotionExtentViewController.swift */,
+				26D43F6527254715001FCD2A /* WriteDetailViewController.swift */,
+				262488692718070000F1603C /* NowEmotionViewController.swift */,
+			);
+			path = "01-Anxiety_record";
+			sourceTree = "<group>";
+		};
+		26D43F7227256596001FCD2A /* 02-Daily_record */ = {
+			isa = PBXGroup;
+			children = (
+				26D43F73272565BD001FCD2A /* DailyMainViewController.swift */,
+				26D43F7527256649001FCD2A /* DailyEmotionViewController.swift */,
+				26D43F79272567F5001FCD2A /* DailyRecordCompleteViewController.swift */,
+				26D43F77272566A6001FCD2A /* DailyEmotionExtentViewController.swift */,
+			);
+			path = "02-Daily_record";
+			sourceTree = "<group>";
+		};
+		A1151C3A4978B0B8BCFAEE41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66BA3A22C871CC9A86CDEC50 /* Pods-CBT.debug.xcconfig */,
+				7A3DEBBFCB9285D6E4268EEF /* Pods-CBT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		262488612718070000F1603C /* CBT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262488762718070100F1603C /* Build configuration list for PBXNativeTarget "CBT" */;
+			buildPhases = (
+				EEA9AC74928E1E4703B3BD75 /* [CP] Check Pods Manifest.lock */,
+				2624885E2718070000F1603C /* Sources */,
+				2624885F2718070000F1603C /* Frameworks */,
+				262488602718070000F1603C /* Resources */,
+				9EDA96C3B696935D06219648 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBT;
+			productName = CBT;
+			productReference = 262488622718070000F1603C /* CBT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2624885A2718070000F1603C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					262488612718070000F1603C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 2624885D2718070000F1603C /* Build configuration list for PBXProject "CBT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 262488592718070000F1603C;
+			productRefGroup = 262488632718070000F1603C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				262488612718070000F1603C /* CBT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		262488602718070000F1603C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262488722718070100F1603C /* LaunchScreen.storyboard in Resources */,
+				2624886F2718070100F1603C /* Assets.xcassets in Resources */,
+				2624886D2718070000F1603C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EDA96C3B696935D06219648 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CBT/Pods-CBT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CBT/Pods-CBT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CBT/Pods-CBT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA9AC74928E1E4703B3BD75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CBT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2624885E2718070000F1603C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D43F642725405C001FCD2A /* EmotionReasonViewController.swift in Sources */,
+				26D43F6827254FC1001FCD2A /* SkillRecommendViewController.swift in Sources */,
+				26D43F6627254715001FCD2A /* WriteDetailViewController.swift in Sources */,
+				26D43F7027256181001FCD2A /* NewSkillViewController.swift in Sources */,
+				26D43F74272565BD001FCD2A /* DailyMainViewController.swift in Sources */,
+				26D43F622725335E001FCD2A /* EmotionTableViewCell.swift in Sources */,
+				26D43F7627256649001FCD2A /* DailyEmotionViewController.swift in Sources */,
+				26D43F6A2725554D001FCD2A /* SkillDetailViewController.swift in Sources */,
+				2624886A2718070000F1603C /* NowEmotionViewController.swift in Sources */,
+				26D43F6E27255AE6001FCD2A /* WhatSkillViewController.swift in Sources */,
+				26D43F78272566A6001FCD2A /* DailyEmotionExtentViewController.swift in Sources */,
+				262488662718070000F1603C /* AppDelegate.swift in Sources */,
+				26D43F7A272567F5001FCD2A /* DailyRecordCompleteViewController.swift in Sources */,
+				2624887A2718137800F1603C /* EmotionExtentViewController.swift in Sources */,
+				262488682718070000F1603C /* SceneDelegate.swift in Sources */,
+				26D43F6C2725585D001FCD2A /* ChangedEmotionExtentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2624886B2718070000F1603C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2624886C2718070000F1603C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		262488702718070100F1603C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262488712718070100F1603C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		262488742718070100F1603C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		262488752718070100F1603C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		262488772718070100F1603C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BA3A22C871CC9A86CDEC50 /* Pods-CBT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJG8NYLG53;
+				INFOPLIST_FILE = CBT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snu.isc.CBT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		262488782718070100F1603C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3DEBBFCB9285D6E4268EEF /* Pods-CBT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJG8NYLG53;
+				INFOPLIST_FILE = CBT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snu.isc.CBT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2624885D2718070000F1603C /* Build configuration list for PBXProject "CBT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262488742718070100F1603C /* Debug */,
+				262488752718070100F1603C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262488762718070100F1603C /* Build configuration list for PBXNativeTarget "CBT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262488772718070100F1603C /* Debug */,
+				262488782718070100F1603C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2624885A2718070000F1603C /* Project object */;
+}

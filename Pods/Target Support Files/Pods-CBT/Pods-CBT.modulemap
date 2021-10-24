@@ -1,0 +1,6 @@
+framework module Pods_CBT {
+  umbrella header "Pods-CBT-umbrella.h"
+
+  export *
+  module * { export * }
+}
